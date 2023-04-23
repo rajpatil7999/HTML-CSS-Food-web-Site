@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+}
+.section1{
+    background-image: url('/assets/foodmunch-banner-bg.png');
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+#header{
+    background-color: white;
+    width: 100%;
+    height: 96px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#logo{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+#Navbar{
+    float: right;
+    margin-right: 200px;
+    margin-top: -45px;
+}
+.links{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 8px;
+    color: #323f4b;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif; 
+}
+#midcontaintsHeading{
+    clear: both;
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+    padding-top: 267px;
+    font-family: "Roboto", sans-serif; 
+    text-align: center;
+}
+#midcontaintsDESC{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 300;
+}
+#Mybtn{
+    width: 280px;
+    margin: auto;
+}
+#menu-btn{
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+#order-btn{
+    color: white;
+    background: transparent;
+    border: 2px solid #a58d00;
+    color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 16px;
+    
+}
+#contact-us{
+    background-color:#f9fbfe;
+    width: 100%;
+    height: 500px;
+    
+}
+#holder{
+    /* background-color: blue; */
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    
+}
+h1{
+    padding-top: 30PX;
+    font-family: 'Roboto';
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#DESC{
+    margin-top: 10PX;
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+#three{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* padding-top: 20px; */
+}
+.th3{
+    margin-top: 10px;
+    width: 32%;
+    /* height: 200px; */
+    background-color: white;
+    border: 1px solid #e5eaf4;
+    border-radius: 18px;
+    text-align: center;
+}
+.th3 h1{
+    color: #323f4b;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 500;
+}
+.th3 p{
+    padding: 10px;
+    color: #7b8794;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 40px;
+}
+#Section3{
+    width: 70%;
+    margin: auto;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+}
+.dish{
+    
+    width: 23%;
+    /* background-color: aqua; */
+    /* flex-wrap: wrap; */
+    justify-content: stretch;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px 4px #ccc;
+    
+    
+}
+.dish img{
+    border-radius: 16px;
+}
+.dish-photo{
+    margin: 10px 13px;
+    width: 90%;
+    border-radius: 16px;
+}
+.food-name{
+color: #323f4b;
+font-family: "Roboto";
+font-size: 18px;
+font-weight: 500;
+margin-top: 24px;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+.dish a{
+text-decoration: none;
+color: #d0b200;
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 500;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+#section4{
+    background-color: #f9fbfe;
+}
+#section4sec1{
+    width: 70%;
+    margin: auto;
+    background-color: #f9fbfe;
+    /* height: 100px; */
+}
+#section4sec1 img{
+    margin: 40px 90px;
+    float: left;
+}
+#section4sec2{
+    width: 40%;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+}
+#section4sec2 p{
+    padding-top: 10px;
+    color: #7b8794;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 40px;
+}
+/* #section4sec2*/ .btn{
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #f9fbfe;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #d0b200;
+    cursor: pointer;
+}
+#section5{
+    clear: both;
+    
+    width: 100%;
+    
+}
+#payment{
+    width: 70%;
+    margin: auto;
+}
+.paymentdesc{
+    width: 62%;
+    float: left;
+}
+#paydesc{
+    
+    color: #7b8794;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 40px;
+}
+#payimg{
+    float: left;
+    width: 28%;
+    /* background-color: red; */
+    height: 10px;
+    text-align: center;
+}
+.payimg{
+    margin-left: 20px;
+}
+.section6{
+    width: 100%;
+    clear: both;
+    background-image: radial-gradient(#fff8bd, #fae38c);
+    height: 400px;
+    
+}
+.sucsection6{
+    width: 70%;
+    margin: auto;
+    
+    height: 300px;
+}
+.section7{
+    width: 25%;
+    
+    margin: auto;
+}
+#secHeading{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#social{
+    width: 100%;
+    
+    /* height: 150px; */
+    height: 100px;
+    padding-bottom: 50px;
+}
+.logo{
+    float: left;
+    width: 33.33%;
+    
+    
+    border-radius: 50%;
+    padding-bottom: 25px;
+}
+.media{
+    width: 75%;
+    margin: auto;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    height: 95px;
+}
+#twit{
+    color: #d0b200;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+#insta{
+    color: #d0b200;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+#fb{
+    color: #d0b200;
+    margin-top: 22px;
+    margin-left: 32px;
+}
+#sub1{
+    width: 60%;
+    /* height: 250px; */
+    /* background-color: cornflowerblue; */
+    float: left;
+    padding: 50px 0px;
+}
+#sub1 p{
+    padding-top: 10px;
+    color: #7b8794;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 40px;
+
+}
+#sub2{
+    padding: 40px 0px;
+    
+    width: 40%;
+    float: left;
+}
+footer{
+    clear: both;
+    background-color: #0d2436;
+    width: auto;
+    text-align: center;
+    color: #959ead;
+    padding: 60px;
+}
+footer h1{
+    color: #959ead;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
